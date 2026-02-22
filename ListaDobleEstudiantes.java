@@ -140,6 +140,8 @@ public class ListaDobleEstudiantes {
         }
         return datos;
     }
+    
+    //validamos para no tener margen de error
 
     private void validarDatos(Estudiante e) {
         if (e.getNombre() == null || e.getNombre().trim().isEmpty())
