@@ -51,7 +51,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jButton8.addActionListener(e -> navegar("ultimo"));
     }
 
-    // ====== ACCIONES ======
+    //acciones
 
     private void accionInsertar() {
         String nombre  = jTextField1.getText().trim();
@@ -143,7 +143,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         }
     }
 
-    // ====== ACTUALIZAR UI ======
+    // actualizar ui
 
     private void actualizarPanelIzquierdo() {
         if (lista.estaVacia() || lista.getActual() == null) {
