@@ -7,6 +7,7 @@ import javax.swing.ImageIcon;
  *
  * @author jv134
  */
+//variables privadas
 public class Estudiante {
     private String nombre;
     private String apellidoPaterno;
@@ -24,7 +25,7 @@ public class Estudiante {
         this.correo = correo;
         this.fotografia = fotografia;
     }
-
+//getter y setter con parametros
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
