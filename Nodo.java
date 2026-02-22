@@ -12,8 +12,9 @@ public class Nodo {
     public Estudiante estudiante;
     public Nodo siguiente;
     public Nodo anterior;
-    
+    //nodos
 
+    //constructor 
     public Nodo(Estudiante estudiante) {
         this.estudiante = estudiante;
         this.anterior = null;
